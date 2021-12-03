@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #330055;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%233a015d' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23410165' cx='50' cy='100' r='50'/%3E%3Cg fill='%2348026e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23500376' cx='50' cy='200' r='50'/%3E%3Cg fill='%2357047e' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%235f0587' cx='50' cy='300' r='50'/%3E%3Cg fill='%2367068f' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%236f0798' cx='50' cy='400' r='50'/%3E%3Cg fill='%237707a0' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%238008a9' cx='50' cy='500' r='50'/%3E%3Cg fill='%238909b1' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%239109ba' cx='50' cy='600' r='50'/%3E%3Cg fill='%239a09c3' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a309cb' cx='50' cy='700' r='50'/%3E%3Cg fill='%23ad09d4' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b608dc' cx='50' cy='800' r='50'/%3E%3Cg fill='%23c007e5' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c905ee' cx='50' cy='900' r='50'/%3E%3Cg fill='%23d303f6' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23D0F' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+  padding: 1.5em 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+nav p {
+  font-size: 2em;
+}
+
+a {
+  padding-left: 0.8em;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white;
+}
+
+.quiz-container {
+  padding: 3em 4em;
+}
+
+.quiz-container p {
+  margin-top: 0.5em;
+  font-size: 1.7em;
+}
+
+.quiz-container label {
+  font-size: 1.2em;
+}
+
+.quiz-container button {
+  background: seagreen;
+  padding: 0.8em 1em;
+  border-radius: 5px;
+  color: white;
+  margin-top: 0.5em;
+}
+
+.quiz-container h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.quiz-container .heading {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 0.8em;
+  margin-top: 0em;
+}
+
+.quiz-container #output-div {
+  color: brown;
+  font-size: 2em;
+}
+
+.isTriangle {
+  padding: 3em 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.isTriangle p {
+  margin-top: 0.5em;
+  font-size: 1.7em;
+}
+
+.isTriangle label {
+  font-size: 1.2em;
+}
+
+.isTriangle button {
+  background: seagreen;
+  padding: 0.8em 1em;
+  border-radius: 5px;
+  width: 20%;
+  color: white;
+  margin-top: 1.5em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.isTriangle h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.isTriangle .heading {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 0.8em;
+  margin-top: 0em;
+}
+
+.isTriangle #output-div {
+  color: brown;
+  font-size: 2em;
+}
+
+.inner-container {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em 2em;
+}
+
+.inner-container label {
+  font-size: 1.2em;
+  margin-top: 2em;
+  font-weight: 600;
+}
+
+.inner-container input {
+  padding: 0.8em;
+  border-radius: 5px;
+  margin-left: 5em;
+}
+
+.inner-container #ouput-div {
+  color: brown;
+  font-size: 2em;
+  text-align: center;
+}
+
+.calculate-hypotenuse {
+  padding: 3em 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calculate-hypotenuse p {
+  margin-top: 0.5em;
+  font-size: 1.7em;
+}
+
+.calculate-hypotenuse label {
+  font-size: 1.2em;
+}
+
+.calculate-hypotenuse button {
+  background: seagreen;
+  padding: 0.8em 1em;
+  border-radius: 5px;
+  width: 20%;
+  color: white;
+  margin-top: 1.5em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.calculate-hypotenuse h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.calculate-hypotenuse .heading {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 0.8em;
+  margin-top: 0em;
+}
+
+.calculate-hypotenuse #output-div {
+  color: brown;
+  font-size: 2em;
+}
+
+.inner-container {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em 2em;
+}
+
+.inner-container label {
+  font-size: 1.2em;
+  margin-top: 2em;
+  font-weight: 600;
+}
+
+.inner-container input {
+  padding: 0.8em;
+  border-radius: 5px;
+  margin-left: 5em;
+}
+
+.inner-container #height-value {
+  margin-left: 3.8em !important;
+}
+
+#hypotenuse-output {
+  color: brown;
+  font-size: 2em;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
